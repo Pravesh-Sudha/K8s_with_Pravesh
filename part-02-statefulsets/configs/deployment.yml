@@ -1,24 +1,23 @@
-# 1. Create the PVC separately
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mysql-pvc
 spec:
   accessModes:
-    - ReadWriteOnce # RWO is required for most cloud disks
+    - ReadWriteOnce 
   resources:
     requests:
       storage: 5Gi
 ---
-# 2. Reference it in your Deployment
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql
 spec:
-  replicas: 1 # Must be 1 for a single PVC in a Deployment
+  replicas: 1 
   strategy:
-    type: Recreate # Kills old pod before starting new one to release the disk
+    type: Recreate 
   selector:
     matchLabels:
       app: mysql
@@ -49,7 +48,23 @@ spec:
       volumes:
         - name: mysql-data
           persistentVolumeClaim:
-            claimName: mysql-pvc # Link to the PVC above
+            claimName: mysql-pvc 
         - name: initdb
           configMap:
             name: mysql-initdb-config
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  clusterIP: None
+  selector:
+    app: mysql
+  ports:
+    - port: 3306 
+      targetPort: 3306 
