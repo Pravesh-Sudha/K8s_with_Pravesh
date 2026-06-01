@@ -1,0 +1,56 @@
+# K8s-with-Pravesh 🚀
+
+Welcome to the official repository for the **K8s-with-Pravesh** series! This is your central hub for all project files, manifests, and scripts used across the series.
+
+From Kubernetes fundamentals to production-grade cloud architecture, this repo is designed to help you build, break, and master cloud-native technologies.
+
+---
+
+## 📺 Series Roadmap
+
+| Part | Topic | Status | Link |
+| --- | --- | --- | --- |
+| **01** | Kubernetes Foundations | Completed | [Watch Now](https://youtu.be/ZYlRwMf4lYA) |
+| **02** | StatefulSets, Observability & Ingress | In Progress | [Watch Video] |
+| **03** | Coming Soon | - | - |
+
+---
+
+## 📂 Project Structure
+
+Each project has its own dedicated directory containing the necessary Kubernetes manifests and configuration files:
+
+* `/part-01-foundations`: Basic deployments and service concepts.
+* `/part-02-stateful-apps`: MySQL StatefulSets.
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Pravesh Sudha**, a DevOps Engineer passionate about simplifying complex cloud infrastructure and sharing technical knowledge. This series is my way of documenting the journey and helping you navigate the world of Kubernetes.
+
+### Let's Connect
+
+* **YouTube:** [Subscribe for weekly tutorials](https://youtube.com/@pravesh-sudha/)
+* **Blog:** [In-depth technical articles](https://praveshsudha.com)
+* **LinkedIn:** [Professional updates](https://www.linkedin.com/in/pravesh-sudha/)
+* **Twitter:** [@YourHandle](https://x.com/praveshstwt)
+* **GitHub:** [Explore my code](https://github.com/Pravesh-Sudha)
+
+---
+
+## 🛠️ How to Contribute
+
+This series is for the community. If you find a bug in the manifests, have a suggestion for an improvement, or want to add a feature to one of our projects:
+
+1. Fork this repository.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a Pull Request.
+
+---
+
+*If you’re enjoying the series, please **star this repo** to help others find it. It really helps the channel grow!*
+
+---
