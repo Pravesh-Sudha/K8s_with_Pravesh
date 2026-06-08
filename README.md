@@ -34,7 +34,7 @@ I'm **Pravesh Sudha**, a DevOps Engineer passionate about simplifying complex cl
 * **YouTube:** [Subscribe for weekly tutorials](https://youtube.com/@pravesh-sudha/)
 * **Blog:** [In-depth technical articles](https://praveshsudha.com)
 * **LinkedIn:** [Professional updates](https://www.linkedin.com/in/pravesh-sudha/)
-* **Twitter:** [@YourHandle](https://x.com/praveshstwt)
+* **Twitter:** [@praveshstwt](https://x.com/praveshstwt)
 * **GitHub:** [Explore my code](https://github.com/Pravesh-Sudha)
 
 ---
