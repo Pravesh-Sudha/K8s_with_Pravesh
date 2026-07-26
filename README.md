@@ -9,10 +9,19 @@ From Kubernetes fundamentals to production-grade cloud architecture, this repo i
 ## 📺 Series Roadmap
 
 | Part | Topic | Status | Link |
-| --- | --- | --- | --- |
-| **01** | Kubernetes Foundations | Completed | [Watch Now](https://youtu.be/ZYlRwMf4lYA) |
-| **02** | StatefulSets, Observability & Ingress | In Progress | [Watch Video] |
-| **03** | Coming Soon | - | - |
+|------|-------|--------|------|
+| **01** | Kubernetes Foundations (Deployments & Services) | ✅ Completed | [Watch Now](https://youtu.be/ZYlRwMf4lYA) |
+| **02** | StatefulSets Explained | ✅ Completed | [Watch Now](https://youtu.be/nSmIGlH9VN0) |
+| **03** | What Really Happens When You Run `kubectl apply`? | ✅ Completed | [Watch Now](https://youtu.be/V55bUAa9U04) |
+| **04** | Inside the Kubernetes API Server | 🚧 Coming Soon | - |
+| **05** | ETCD: The Brain of Kubernetes | ⏳ Planned | - |
+| **06** | Controller Manager & Reconciliation Loop | ⏳ Planned | - |
+| **07** | How the Kubernetes Scheduler Chooses a Node | ⏳ Planned | - |
+| **08** | Kubelet & Container Runtime Explained | ⏳ Planned | - |
+| **09** | How Kubernetes Services Route Traffic | ⏳ Planned | - |
+| **10** | Kubernetes Networking (CNI & CoreDNS) | ⏳ Planned | - |
+| **11** | Ingress Explained | ⏳ Planned | - |
+| **12** | Kubernetes Observability (Prometheus & Grafana) | ⏳ Planned | - |
 
 ---
 
@@ -22,6 +31,7 @@ Each project has its own dedicated directory containing the necessary Kubernetes
 
 * `/part-01-foundations`: Basic deployments and service concepts.
 * `/part-02-stateful-apps`: MySQL StatefulSets.
+* `/part-03-kubectl-apply`: What happen when you run Kubectl apply?
 
 ---
 
