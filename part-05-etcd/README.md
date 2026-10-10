@@ -8,7 +8,7 @@ kubectl exec -n kube-system etcd-minikube -- sh -c "ETCDCTL_API=3 etcdctl \
   --cacert=/var/lib/minikube/certs/etcd/ca.crt \
   --cert=/var/lib/minikube/certs/etcd/server.crt \
   --key=/var/lib/minikube/certs/etcd/server.key \
-  get /registry/deployments/default/nginx-demo --write-out=fields" | grep -E "Key|Value" | strings
+  get /registry/deployments/default/nginx-demo --write-out=fields"
 ```
 
 ## Inspecting raw object and it's revision
