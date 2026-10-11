@@ -22,5 +22,5 @@ kubectl exec -n kube-system etcd-minikube -- sh -c "ETCDCTL_API=3 etcdctl \
 ```
 
 ## Changin the Revision
-kubectl set image deployment/nginx-demo nginx=nginx:1.24
+kubectl set image deployment/nginx-demo nginx=nginx:1.25
 
