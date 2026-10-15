@@ -14,7 +14,7 @@ From Kubernetes fundamentals to production-grade cloud architecture, this repo i
 | **02** | StatefulSets Explained | ✅ Completed | [Watch Now](https://youtu.be/nSmIGlH9VN0) |
 | **03** | What Really Happens When You Run `kubectl apply`? | ✅ Completed | [Watch Now](https://youtu.be/V55bUAa9U04) |
 | **04** | Inside the Kubernetes API Server | ✅ Completed | [Watch Now](https://youtu.be/IjN0IO6Ie-U) |
-| **05** | ETCD: The Brain of Kubernetes | ⏳ Planned | - |
+| **05** | ETCD: The Brain of Kubernetes | ✅ Completed | [Watch Now](https://youtu.be/wZf1bUbyg_c) |
 | **06** | Controller Manager & Reconciliation Loop | ⏳ Planned | - |
 | **07** | How the Kubernetes Scheduler Chooses a Node | ⏳ Planned | - |
 | **08** | Kubelet & Container Runtime Explained | ⏳ Planned | - |
